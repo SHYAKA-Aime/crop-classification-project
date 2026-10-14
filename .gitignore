@@ -1,0 +1,19 @@
+# Ignore data files
+*.csv
+*.zip
+*.txt
+!requirements.txt
+data/
+
+# Ignore saved model weights
+*.pkl
+*.joblib
+*.h5
+*.keras
+saved_models/
+
+# Ignore Colab and Jupyter hidden files
+.ipynb_checkpoints/
+__pycache__/
+
+**/.DS_Store
