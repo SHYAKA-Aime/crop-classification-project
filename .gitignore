@@ -1,19 +1,30 @@
-# Ignore data files
+# Ignore data files and folders
 *.csv
 *.zip
 *.txt
 !requirements.txt
 data/
+Data/
+dataset/
 
-# Ignore saved model weights
+# Ignore saved model files
 *.pkl
 *.joblib
 *.h5
 *.keras
+models/
 saved_models/
 
-# Ignore Colab and Jupyter hidden files
+# Ignore TensorBoard and training logs
+logs/
+
+# Ignore Colab, Jupyter, and virtual environments
 .ipynb_checkpoints/
 __pycache__/
+*.py[cod]
+venv/
+.env
 
+# Ignore OS metadata files
 **/.DS_Store
+Thumbs.db
